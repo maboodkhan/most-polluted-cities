@@ -1,0 +1,25 @@
+{
+  "name": "polluted-cities-service",
+  "version": "1.0.0",
+  "description": "Backend service: GET /cities integrates mock pollution API + Wikipedia summaries with filtering, normalization, caching.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0",
+    "qs": "^6.12.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "nodemon": "^3.1.0"
+  }
+}
